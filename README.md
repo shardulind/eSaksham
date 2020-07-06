@@ -1,20 +1,20 @@
 ##### Development
 ***
-##💻 Tech Stack 💻
-#Python3 - Flask - Mysql
+## 💻 Tech Stack 💻
+# Python3 - Flask - Mysql
 
 ***
 
 Ensure that you have these
 
 ## Technology Stack 
-   -Python 3.6.9
-   -Flask 1.1.2
-   -Werkzeug 1.0.1 (comes along with flask)
-   -mysql
+   - Python 3.6.9
+   - Flask 1.1.2
+   - Werkzeug 1.0.1 (comes along with flask)
+   - mysql
 
 ## requirements.txt (pip python packages)
-   -MySQLdb
+   - MySQLdb
 
 
 
