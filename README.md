@@ -4,14 +4,16 @@
 #Python3 - Flask - Mysql
 
 ***
-Ensure that you have these:
-###Technical Dependecies 
+
+Ensure that you have these
+
+## Technology Stack 
    -Python 3.6.9
    -Flask 1.1.2
    -Werkzeug 1.0.1 (comes along with flask)
    -mysql
 
-###requirements.txt (pip python packages)
+## requirements.txt (pip python packages)
    -MySQLdb
 
 
@@ -32,7 +34,8 @@ Ensure that you have these:
 
 
 
-#Project Layout
+# Project Layout
+
 '''
 ~/e-Saksham
 ├── src/
@@ -67,7 +70,8 @@ Ensure that you have these:
 
 
 '''
-###Description about Project Layout
+
+### Description about Project Layout
 📁 src  : All Code will rest here
 📁 src/__init__.py : Factory Code: All Flask related Initiation and Configuration 
 📁 📝src/db.py : Creating Connection with Database - MySQL and db related configuration
