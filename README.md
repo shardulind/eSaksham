@@ -36,7 +36,7 @@ Ensure that you have these
 
 # Project Layout
 
-'''
+```
 ~/e-Saksham
 ├── src/
 │   ├── __init__.py
@@ -67,11 +67,11 @@ Ensure that you have these
 │   ├── test_auth.py
 │   └── test_foo.py
 └── setup.py *
+```
 
-
-'''
 
 ### Description about Project Layout
+```
 📁 src  : All Code will rest here
 📁 src/__init__.py : Factory Code: All Flask related Initiation and Configuration 
 📁 📝src/db.py : Creating Connection with Database - MySQL and db related configuration
@@ -81,5 +81,5 @@ Ensure that you have these
 📁static/ : static data, css and js files will rest here
 
 📁tests/: Wo badmein dekh lenge
-
+```
 
