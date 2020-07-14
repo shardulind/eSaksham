@@ -1,6 +1,6 @@
 import os
-from flask import Flask,g 
-from flask_mysqldb import MySQL
+from flask import Flask,g
+#from flask_mysqldb import MySQL
 
 #import configuration module
 from configmodule import DevelopmentConfig, ProductionConfig
@@ -19,14 +19,14 @@ def create_app():
     #this is to load Production server configuration
     if test_config :
         app.config.from_object(DevelopmentConfig)
-    
 
-    from . import auth
+
+    import auth
     app.register_blueprint(auth.auth_bp)
 
-    @app.route('/hello')
+    @app.route('/')
     def hello():
-        return "Namaskar, we are comming soooooon...."
-        
+        return "<html><body><h3>E-Saksham: Work in Progress!<h3> <br>  try <a href=/auth/login>Login Page</a></body></html>"
+
     return app
 
