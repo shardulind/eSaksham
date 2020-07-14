@@ -36,6 +36,7 @@ def does_user_already_exist(email_id):
 ##actual endpoints.. pending
 @auth_bp.route('/register', methods=['POST','GET'])
 def registration():
+    
     if request.method == 'POST':    
         data = request.get_json()
         
@@ -87,16 +88,6 @@ def registration():
 
 
 
-@auth_bp.route('/login', methods=['POST','GET'])
+@auth_bp.route('/login', methods=['GET'])
 def login():
-    if request.method == 'POST':
-        data = request.get_json()
-        return data
-        ###possible scenario
-        ###1) username is not registered
-        ###2) pasword does not match
-    
-    else:
-        return "work in progress"
-        #render login.html from templates
-
+    return render_template('Login.html')
